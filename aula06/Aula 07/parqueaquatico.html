@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parque Aquático Splash – Compra de Ingressos</title>
+</head>
+<body>
+    <h1>Parque Aquático Splash – Compra de Ingressos</h1>
+
+    <!-- Imagem ilustrativa -->
+    <img src="https://i.pinimg.com/736x/07/41/9b/07419b66b3ef499505387139292d904b.jpg" 
+         alt="Toboágua do parque aquático" width="600">
+
+    <!-- Sobre nós -->
+    <h2>Sobre nós</h2>
+    <p>
+        O Parque Aquático Splash é o destino perfeito para toda a família! 
+        Contamos com atrações emocionantes para os aventureiros, áreas de lazer para quem 
+        prefere relaxar e espaços dedicados às crianças. Venha viver momentos inesquecíveis de 
+        diversão e refrescância com segurança e conforto.
+    </p>
+
+    <!-- Lista de atrações -->
+    <h2>Nossas atrações principais</h2>
+    <ul>
+        <li>Toboágua Radical</li>
+        <li>Piscina de Ondas</li>
+        <li>Rio Lento</li>
+        <li>Área Infantil</li>
+    </ul>
+
+    <!-- Formulário de compra -->
+    <h2>Compre seus ingressos</h2>
+    <form>
+        <label for="nome">Nome do visitante:</label><br>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Digite seu email" required><br><br>
+
+        <label for="tipo">Tipo de ingresso:</label><br>
+        <select id="tipo" name="tipo" required>
+            <option value="">Selecione</option>
+            <option value="Adulto">Adulto</option>
+            <option value="Crianca">Criança</option>
+            <option value="Familia">Família</option>
+        </select><br><br>
+
+        <label for="quantidade">Quantidade de ingressos:</label><br>
+        <input type="number" id="quantidade" name="quantidade" min="1" required><br><br>
+
+        <label for="data">Data da visita:</label><br>
+        <input type="date" id="data" name="data" required><br><br>
+
+        <label for="observacoes">Observações:</label><br>
+        <textarea id="observacoes" name="observacoes" rows="4" cols="40" placeholder="Ex.: Acesso ao armário premium"></textarea><br><br>
+
+        <button type="submit">Finalizar Compra</button>
+    </form>
+
+    <br>
+
+    <!-- Link para Instagram -->
+    <a href="https://instagram.com" target="_blank">
+        <button>Siga nosso Instagram</button>
+    </a>
+</body>
+</html>
