@@ -1,0 +1,31 @@
+/*CSS*/
+div{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+.caixa1{
+    background-color: red;
+position: static;/*position padrão*/
+   position: relative;
+    top: 50px;
+    left: 50px;
+    z-index: -1;
+}
+.caixa2{
+    background-color: blue;
+  position: absolute;
+    top: 100px;
+    left: 400px;
+}
+
+.caixa3{
+    background-color: green;
+     position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+body{
+    height: 200vh;
+}

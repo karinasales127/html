@@ -1,0 +1,27 @@
+a{
+    background-color: lightcyan;
+    padding: 7xp;
+    text-decoration: none;
+    border: 7px;
+    color: black;
+}
+
+img{
+    opacity: 0.5;
+}
+p{
+    transform: scale(1.1);
+
+}
+a:hover{
+    background-color: aqua;
+    color: red;
+    padding: 15px;
+    border-radius: 50px;
+}
+p:hover{
+    color: green;
+}
+img:hover{
+    opacity: 1;
+}

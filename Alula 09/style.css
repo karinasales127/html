@@ -1,0 +1,24 @@
+body{
+    background-image: url(img/db5fbbbe979645d6065a6eb8698f6ce3.jpg);
+    background-repeat: no-repeat; /*não repete o fundo*/
+    background-size: cover;
+    /*contain aumenta a imagem sem cortar (deixa espaços vazios)*/
+/*cover aumenta a iimagem odendo cortar ela*/
+background-position: center;
+/*left, right, center, top , bottom*/
+background-attachment: fixed;
+background-color: aquamarine;
+
+
+}
+
+p{
+    font-size: 90px;
+}
+
+body ::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(235, 164, 164, 0.507);
+}
