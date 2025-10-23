@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+section {
+  margin-bottom: 40px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+/* Exercício 1 */
+.quadrado {
+  width: 100px;
+  height: 100px;
+  background: rgb(247, 0, 255);
+  position: relative;
+  animation: mover 3s infinite alternate;
+}
+
+@keyframes mover {
+  0% { left: 0; background: rgb(233, 83, 220); }
+  50% { left: 200px; background: rgb(201, 63, 255); }
+  100% { left: 0; background: rgb(247, 29, 192); }
+}
+
+/* Exercício 2*/
+.mudacor {
+  width: 100px;
+  height: 100px;
+  background: red;
+  animation: cores 6s infinite;
+}
+
+@keyframes cores {
+  0% { background: rgb(255, 0, 221); }
+  33% { background: rgb(123, 111, 235); }
+  66% { background: rgb(35, 35, 121); }
+  100% { background: #f076db; }
+}
+
+/* Exercício 3  */
+.botao {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  background: #333;
+  color: white;
+  animation: animabotao 5s infinite alternate;
+}
+
+@keyframes animabotao {
+  0% { background: #333; color: white; transform: scale(1); }
+  50% { background: purple; color: rgb(252, 130, 242); transform: scale(1.2); }
+  100% { background: #333; color: white; transform: scale(1); }
+}
+
+/* Exercício 4 */
+.piscando {
+  font-size: 24px;
+  animation: pisca 2s infinite;
+}
+
+@keyframes pisca {
+  0% { color: rgb(255, 0, 234); }
+  33% { color: rgb(111, 48, 136); }
+  66% { color: rgb(98, 98, 255); }
+  100% { color: rgb(234, 0, 255); }
+}
+
+/* Exercício 5  */
+.ceu {
+  width: 300px;
+  height: 200px;
+  border: 2px solid #000;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(#87CEEB, #ffffff);
+}
+
+.sol {
+  width: 80px;
+  position: absolute;
+  bottom: -50px;
+  left: 100px;
+  animation: nascer 5s infinite alternate;
+}
+
+@keyframes nascer {
+  0% { bottom: -50px; }
+  100% { bottom: 100px; }
+}
+
+/* Exercício 6 */
+.coracao {
+  width: 100px;
+  animation: batendo 1s infinite;
+}
+
+@keyframes batendo {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+}
+
+/* Exercício 7 */
+.flutuante {
+  font-size: 24px;
+  animation: flutua 3s infinite ease-in-out;
+}
+
+@keyframes flutua {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
