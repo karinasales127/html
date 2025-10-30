@@ -1,0 +1,54 @@
+img{
+    width: 200px;
+    transition: width 3s;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #f3f3d4fd 0%, #fffdebfa 100%);
+  color: #41a338;
+}
+
+/* Cabeçalho */
+header {
+  background-color: hsl(40, 56%, 94%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+  border-bottom: 2px solid #000000;
+}
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #3ba849;
+  letter-spacing: 1px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+  margin-left: 20px;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background-color: #fffcec;
+  transition: width 0.4s ease;
+}
+
+nav a:hover {
+  color: #4e9645;
+}
+
+nav a:hover::after {
+  width: 100%;
+}

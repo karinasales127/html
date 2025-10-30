@@ -64,10 +64,6 @@ margin-top: 50px;
     
 }
 img{
-    margin-top: 100px;
-    width: 100px;
-animation: andar 4s infinite;
-}
 @keyframes andar {
     0%{
 transform: translateX(0) scaleX(1);
