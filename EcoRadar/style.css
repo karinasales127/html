@@ -1,54 +1,60 @@
-img{
-    width: 200px;
-    transition: width 3s;
-}
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(135deg, #f3f3d4fd 0%, #fffdebfa 100%);
-  color: #41a338;
+  background: #fafaf2;
+  margin: 0;
+  background-image: url(WhatsApp\ Image\ 2025-10-30\ at\ 14.09.31.jpeg);
 }
 
-/* Cabeçalho */
 header {
-  background-color: hsl(40, 56%, 94%);
+  background-color: rgba(248, 246, 237, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 40px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
-  border-bottom: 2px solid #000000;
-}
-.logo {
-  font-size: 1.6rem;
-  font-weight: bold;
-  color: #3ba849;
-  letter-spacing: 1px;
+  padding: 15px 60px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
-nav a {
+.logo img {
+  width: 120px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 16px;
+}
+
+.menu a {
   text-decoration: none;
-  color: #000000;
+  color: #2a2a2a;
   font-weight: 500;
-  margin-left: 20px;
-  position: relative;
-  transition: color 0.3s ease;
+  transition: color 0.2s;
 }
 
-nav a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -4px;
-  width: 0%;
-  height: 2px;
-  background-color: #fffcec;
-  transition: width 0.4s ease;
+.menu a:hover {
+  color: #3ba849;
 }
 
-nav a:hover {
-  color: #4e9645;
+.menu span {
+  color: #aaa;
 }
 
-nav a:hover::after {
-  width: 100%;
+.botregi {
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 6px 20px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.botregi:hover {
+  background-color: #3ba849;
+  color: #fff;
+  border-color: #3ba849;
 }
