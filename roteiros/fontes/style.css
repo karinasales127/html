@@ -1,0 +1,12 @@
+.fontes1{ 
+    font-family: "Monoton", sans-serif;
+}
+@font-face {
+    font-family: momo;
+    src: url(fontes/MomoSignature-Regular.ttf);
+}
+
+.fontes2{
+    font-family: "momo";
+    
+}

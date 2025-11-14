@@ -1,31 +1,25 @@
-body {
-  font-family: "Poppins", sans-serif;
-  background: #fafaf2;
-  margin: 0;
-  background-image: url(WhatsApp\ Image\ 2025-10-30\ at\ 14.09.31.jpeg);
-}
-
+/*header*/
 header {
-  background-color: rgba(248, 246, 237, 0.5);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  background-color: rgba(248, 246, 237, 0.0);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 60px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 3px solid rgba(0, 0, 0, 1);
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
+
 .logo img {
-  width: 120px;
+  width: 130px;
+  margin: 0;
 }
 
 .menu {
   display: flex;
   align-items: center;
-  gap: 15px;
-  font-size: 16px;
+  gap: 70px;
+  font-size: 24px;
 }
 
 .menu a {
@@ -57,4 +51,18 @@ header {
   background-color: #3ba849;
   color: #fff;
   border-color: #3ba849;
+}
+/*Body*/
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fafaf2;
+  margin: 0;
+  background-image: url("WhatsApp Image 2025-10-30 at 14.09.31.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1 {
+  text-align: center;
+  font-size: 80px;
 }

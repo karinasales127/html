@@ -1,0 +1,19 @@
+body{
+
+    height: 300vh;
+}
+::-webkit-scrollbar{
+    /*espaço barra*/
+
+    width: 50px;
+}
+
+::-webkit-scrollbar-track{
+    /*cor de fundo*/
+    background-color: blue;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 50px;
+    background-color: red;
+}
